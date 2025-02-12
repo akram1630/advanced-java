@@ -2,7 +2,9 @@ package org.example.A;
 
 
 public class Thread_class {
+
     public static void main (String args[]) {
+
         //creating threads :
         Ecrit e1 = new Ecrit (" <1>","A", 4, 200) ;
         Ecrit e2 = new Ecrit (" <2>","B", 4, 200) ;
